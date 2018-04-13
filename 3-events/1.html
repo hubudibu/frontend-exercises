@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Workshop: EventListeners</title>
+  <style>
+    body {
+      margin: 0;
+    }
+    div {
+      height: 100vh;
+    }
+    .party {
+      background: url(https://media.giphy.com/media/4c4jQPdVv381G/giphy.gif);
+    }
+  </style>
+</head>
+<body>
+  <div>
+    <button>Just a button</button>
+    <button id="party">Party</button>
+  </div>
+
+  <script>
+    document.querySelector('button').addEventListener('click', function(){
+      console.log('clicked');
+    });
+    // Turn the party on and off by clicking the Party button.
+  </script>
+</body>
+</html>

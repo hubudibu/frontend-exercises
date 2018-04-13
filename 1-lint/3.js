@@ -4,6 +4,5 @@ var car = {
     ride: function(km) {
       this.km += km;
   };
-  
   car.ride(220);
-  console.log(car.km);
+alert(car.km);
